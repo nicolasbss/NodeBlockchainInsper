@@ -1,1 +1,1 @@
-web: bundle exec thin start
+web: node NodeFinal.js
