@@ -202,6 +202,6 @@ app.post('/MinerarBloco', (req, res) => {
       res.send({'flag': 2, 'data': JSON.stringify(blockchain)}); //pega o ultimo bloco
   });
 
-  port = process.env.HTTP_PORT || 5000
+  port = process.env.HTTP_PORT || 3000
 
   app.listen(port, () => console.log('Server started: ' + port));
