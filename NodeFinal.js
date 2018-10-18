@@ -120,6 +120,7 @@ function sendAll(msg) {
   		console.log(body);
 		});
   }
+}
 
 var handleBlockchainResponse = (message) => {
     if (typeof(message)==typeof(" ")) {
