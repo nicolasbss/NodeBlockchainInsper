@@ -3,8 +3,6 @@ var express = require("express");
 var bodyParser = require('body-parser');
 var request = require('request');
 
-var cool = require('cool-ascii-faces');
-
 var app = express();
 app.use(bodyParser.json());
 
